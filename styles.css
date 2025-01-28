@@ -1,0 +1,83 @@
+body{
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.div1{
+    color: rgba(221, 221, 238, 0.856);
+    background-color: rgb(72, 14, 165);
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    width: 100%;
+    display: block;
+}
+main{
+    width: 60%;
+    left: 150px;
+    padding: 100px;
+    position: relative;
+    background-color: rgba(208, 228, 255, 0.566) !important;
+    overflow-y: auto;
+    z-index: -6;
+}
+
+article {
+    background-color: rgba(12, 42, 81, 0.062);
+    margin: auto;
+    bottom: 50px;
+    padding: 20px;
+    position: static;
+}
+section {
+    width: 80%;
+    background-color: rgb(204, 224, 251);
+    margin: auto;
+}
+
+.header-post {
+    background-color: rgba(156, 180, 232, 0.95);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+}
+.title-post{
+    float: left;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    font-size: 100%;
+    color: rgb(38, 123, 198);
+}
+.date-post {
+    float: right;
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    font-size: 100%;
+    color: rgba(0, 0, 139, 0.393);
+}
+.comment {
+    font-size: 90%;
+    margin: 0;
+    text-align: justify;
+    margin: 0;
+    background-color: rgb(204, 224, 251);
+    padding: 10px;
+}
+.hashtags {
+    font-size: 90%;
+    text-align: justify;
+    margin-bottom: 5px;
+    background-color: rgb(204, 224, 251);
+    padding: 10px;
+}
+img{
+    padding: 0px;
+    width: 100%;
+}
