@@ -8,12 +8,16 @@ body{
 
 .div1{
     color: rgba(221, 221, 238, 0.856);
-    background-color: rgb(72, 14, 165);
+    background-color: rgba(72, 14, 165, 0.685);
     text-align: center;
-    font-size: large;
-    padding: 20px;
+    font-size: 30px;
+    padding: 5px;
     width: 100%;
     display: block;
+    margin: 0;
+    font-family: "Aclonica", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 main{
     width: 60%;
@@ -26,7 +30,7 @@ main{
 }
 
 article {
-    background-color: rgba(12, 42, 81, 0.062);
+    background-color: rgba(64, 145, 168, 0.361);
     margin: auto;
     bottom: 50px;
     padding: 20px;
@@ -34,7 +38,7 @@ article {
 }
 section {
     width: 80%;
-    background-color: rgb(204, 224, 251);
+    background-color: rgb(236, 244, 255);
     margin: auto;
 }
 
@@ -51,7 +55,7 @@ section {
     padding: 10px;
     display: flex;
     font-size: 100%;
-    color: rgb(38, 123, 198);
+    color: rgb(24, 102, 170);
 }
 .date-post {
     float: right;
@@ -60,22 +64,30 @@ section {
     padding: 10px;
     display: flex;
     font-size: 100%;
-    color: rgba(0, 0, 139, 0.393);
+    color: rgba(0, 0, 139, 0.523);
 }
 .comment {
     font-size: 90%;
     margin: 0;
     text-align: justify;
     margin: 0;
-    background-color: rgb(204, 224, 251);
+    background-color: rgb(236, 244, 255);
     padding: 10px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 .hashtags {
     font-size: 90%;
     text-align: justify;
     margin-bottom: 5px;
-    background-color: rgb(204, 224, 251);
+    background-color: rgb(236, 244, 255);
     padding: 10px;
+    font-family: "Economica", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(13, 13, 184);
 }
 img{
     padding: 0px;
